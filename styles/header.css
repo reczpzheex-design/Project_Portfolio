@@ -1,0 +1,60 @@
+
+.portfolio-header {
+    display: flex;
+    padding: 0;
+    width: auto;
+}
+
+.header__info {
+    flex: 1; /* Toma el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Separa la nav del texto de intro */
+    max-width:  793px; /* Ancho máximo para el bloque de texto */
+}
+
+.header__title {
+font-family: 'Archivo Black', sans-serif;
+font-weight: 4000;
+font-style: Regular;
+font-size: 72px;
+line-height: 100%;
+letter-spacing: 0%;
+margin: 89px 20px 15px 0px;
+text-align: left;
+}
+.header__title span {
+  display: block;
+}
+
+.header__subtitle {
+font-family: 'open sans', sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 0.5);
+}
+
+.header__intro {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+width: 90%;
+}
+.header__image-container {
+    width: 387px; 
+    height: 500px;
+    margin: 40px 0 0 0;
+}
+
+.header__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Evita que tu foto de perfil se deforme */
+    border-radius: 8px; /* Un toque sutil opcional */
+}
