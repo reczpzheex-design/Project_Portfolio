@@ -11,14 +11,17 @@
     /* El fondo con degradados radiales usando calc() */
     background-image: 
         radial-gradient(circle at calc(50% - 400px) 200px, rgba(187, 179, 179, 0.274) 0%, transparent 40%),
-        radial-gradient(circle at 50% 2000px, rgba(201, 11, 11, 0.185) 0%, transparent 40%),
+        radial-gradient(circle at 50% 2000px, rgba(187, 179, 179, 0.274) 0%, transparent 40%),
         radial-gradient(circle at calc(50% + 400px) 500px, rgba(201, 11, 11, 0.158) 0%, transparent 40%);
     background-attachment: fixed; /* Mantiene las luces en su lugar al hacer scroll */
 }
 
 .page__content {
     max-width: 1440px;
-    width: 100%;
-    padding: 0 120px 0 120px; /* Margen interno para que el contenido no toque los bordes */    
+    width: 100%;  
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el título y los iconos internamente */
+    gap: 10px; /* Espacio entre secciones */
 }
