@@ -109,7 +109,34 @@ margin: 0 30px;
    .project-card {
         max-width: 688px;
         width: 100%;
+        height: auto;
    }
-
-
+}
+@media screen and (max-width: 320px) {
+    .projects {
+        padding: 60px 20px 0 20px;
+    }
+    .projects__title{
+        font-size: 28px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .project-card {
+        max-width: 280px;
+        width: 100%;
+        height: auto;
+        gap: 0;
+        padding-bottom: 0;
+    }
+    .project-card__image-container {
+        height: 160px;
+    }
+    .project-card__title {
+        font-size: 20px;
+        margin: 20px 20px 10px 20px;
+    }
+    .project-card__text {
+        font-size: 16px;
+        margin: 0 20px 20px 20px;
+    }
 }

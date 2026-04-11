@@ -24,3 +24,11 @@
     opacity: 0.7;
     color: #6D6DFF;
 }
+
+@media screen and (max-width: 320px) {
+ .nav__links {
+        flex-direction: column;
+        gap: 35px;
+        align-items: flex-start;
+    }
+}

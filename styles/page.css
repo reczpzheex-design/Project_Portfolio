@@ -13,7 +13,7 @@
         radial-gradient(circle at calc(50% - 400px) 200px, rgba(187, 179, 179, 0.274) 0%, transparent 40%),
         radial-gradient(circle at 50% 2000px, rgba(187, 179, 179, 0.274) 0%, transparent 40%),
         radial-gradient(circle at calc(50% + 400px) 500px, rgba(201, 11, 11, 0.158) 0%, transparent 40%);
-    background-attachment: fixed; /* Mantiene las luces en su lugar al hacer scroll */
+    background-attachment: scroll; /* Mantiene las luces en su lugar al hacer scroll */
 }
 
 .page__content {
@@ -28,8 +28,9 @@
 @media screen and (max-width: 768px) {
     .page{
         background-image: 
-       radial-gradient(circle at calc(50% + 200px) 150px, rgba(255, 255, 255, 0.151) 0%, transparent 40%),
-       radial-gradient(circle at 50% 90%, rgba(201, 11, 11, 0.158) 0%, transparent 40%);
+       radial-gradient(circle at calc(50% + 200px) 150px, rgba(201, 11, 11, 0.158) 0%, transparent 40%),
+       radial-gradient(circle at 50% 90%, rgba(187, 179, 179, 0.274) 0%, transparent 40%);
+       background-attachment: scroll;
     }
      .page__content {
         align-items: flex-start; /* Cambiamos center por flex-start */
@@ -37,5 +38,14 @@
         width: 100%;
         max-width: 100%;
      }
-    
+}
+@media screen and (max-width: 320px) {
+    .page{
+        background-image: 
+      radial-gradient(circle at 50% 200px, rgba(201, 11, 11, 0.158) 0%, transparent 40%),
+      radial-gradient(circle at 50% 95%, rgba(187, 179, 179, 0.274) 0%, transparent 40%);
+      
+      background-attachment: scroll;
+    }
+     
 }

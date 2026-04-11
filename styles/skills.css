@@ -28,3 +28,25 @@
     }
 
 }
+@media screen and (max-width: 320px) {
+    .skills{
+        padding: 70px 20px 0 20px;
+        max-width: 280px;
+    }
+    .skills__icons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 53px;
+        justify-content: center;
+    }
+    .skill__icon{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .skills__title{
+        width: 100%;
+        font-size: 28px;
+        line-height: 1;
+    }
+}

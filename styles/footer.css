@@ -46,3 +46,33 @@
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+    
+    .footer__social-icon {
+        margin: 0  0 0 0 ;
+    }
+    .footer__social {
+        display: flex;
+        gap: 80px;
+    }
+    .footer__copyright {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding-top: 60px ;
+    }
+    .footer__title {
+        font-size: 28px;
+        margin: 0 0 20px 0;
+    }
+    .footer__email {
+        margin-bottom: 30px;
+    }
+    .footer__social {
+        display: flex;
+        gap: 20px;
+    }
+    }
