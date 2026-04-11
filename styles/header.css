@@ -1,7 +1,6 @@
 
 .portfolio-header {
     display: flex;
-    flex-wrap: wrap-reverse;
     padding: 0;
     width: auto;
     align-items: stretch;
@@ -61,4 +60,39 @@ margin: 30px 0 30px 0;
     height: 100%;
     object-fit: cover; /* Evita que tu foto de perfil se deforme */
     border-radius: 8px; /* Un toque sutil opcional */
+}
+
+@media screen and (max-width: 768px) {
+   
+    .portfolio-header {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+    .header__title{
+        font-size: 58px;
+        line-height: 1;
+        margin: 40px 38px 14px 0px;
+    }
+    .header__subtitle{
+        margin: 0px 20px 20px 0px;
+        max-width: 452px;
+    }
+
+    .header__image-container {
+        width: 216px;
+        height: 280px;
+        flex-shrink: 0;
+    }
+    .header__intro{
+        width: 100%;
+        font-size: 18px;
+        margin: 20px 0 20px 0px;
+        max-width: 452px;
+    }
+    .header__profile-container{
+        padding-left: 40px;
+    }
+
+
 }
