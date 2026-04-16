@@ -39,18 +39,15 @@
 .project-card__overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
     display: flex;
     align-items: flex-end;
     justify-content: left;
     gap: 10px;
     padding: 10px;
-    opacity: 0.25;
-    transition: opacity 0.3s ease;
+    opacity: 1
 }
-.project-card__image-container:hover .project-card__overlay {
-    opacity: 1;
-}
+
 .project-card__icon {
     width: 30px;
     height: 30px;

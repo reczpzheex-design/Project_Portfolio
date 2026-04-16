@@ -22,7 +22,7 @@
 /* Estado Hover: opacidad o color según el diseño */
 .nav__link:hover {
     opacity: 0.7;
-    color: #6D6DFF;
+    color: #ce1919c9;
 }
 
 @media screen and (max-width: 320px) {
