@@ -19,7 +19,6 @@
 
     }
 
-/* Estado Hover: opacidad o color según el diseño */
 .nav__link:hover {
     opacity: 0.7;
     color: #ce1919c9;
